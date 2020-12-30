@@ -118,7 +118,7 @@ class Tree:
             return val
         else:
             return "Tree is empty."
-    def predessor(self,data):    # kendisinden küçük en büyük eleman
+    def predessor(self,data):    
         iter=self.head
         if self.search(data):
             cur=[]
@@ -152,7 +152,7 @@ class Tree:
                 return iter.data
         else:
             return f"{data} is not found in tree."   
-    def successor(self,data):     # kendisinden büyük en küçük eleman
+    def successor(self,data):  
         iter=self.head
         if self.search(data):
             cur=[]
